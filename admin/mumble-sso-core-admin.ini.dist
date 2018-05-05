@@ -1,0 +1,5 @@
+[murmur]
+server_id = 1
+ice_host = 127.0.0.1
+ice_port = 6502
+ice_secret = secret

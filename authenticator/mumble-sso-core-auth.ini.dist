@@ -1,0 +1,31 @@
+[misc]
+
+# display_name defines how the user is displayed on mumble
+#   %A = Alliance Ticker
+#   %C = Corporation Ticker
+#   %N = Character Name
+#   %R = Rank
+#
+# Examples:
+# "%A %C %N %R"		--> "<BRAVE>[SB00N] kiu Nakamura (Admin)"
+# "%N - %C" 		--> "kiu Nakamura - (SB00N)"
+#
+display_name = %C %N %R
+
+[murmur]
+server_id = 1
+ice_host = 127.0.0.1
+ice_port = 6502
+ice_secret = secret
+
+[mysql]
+sql_host = 127.0.0.1
+sql_user = mumble-sso-core
+sql_pass = secret
+sql_name = mumble-sso-core
+
+[afk]
+afk_interval = 180
+afk_idle = 10800
+afk_move_channel = 1
+
